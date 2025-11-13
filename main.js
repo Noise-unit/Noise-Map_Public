@@ -275,11 +275,10 @@ function popupHtmlForFeature(f) {
       <div><strong>Location:</strong> ${f.eventLocation || ""}</div>
       <div><strong>Applicant:</strong> ${f.applicant || ""}</div>
       <div><strong>Host:</strong> ${f.host || ""}</div>
+      <div><strong>Event Start:</strong> ${f.startDate || ""} ${f.startTime || ""}</div>
+      <div><strong>Event End:</strong> ${f.endDate || ""} ${f.endTime || ""}</div>      
       <div><strong>VR type:</strong> ${f.vrType || ""}</div>
       <div><strong>Determination:</strong> ${f.determination || ""}</div>
-      <div><strong>Start:</strong> ${f.startDate || ""} ${f.startTime || ""}</div>
-      <div><strong>End:</strong> ${f.endDate || ""} ${f.endTime || ""}</div>
-      <div><strong>UTM (E,N):</strong> ${f.easting}, ${f.northing}</div>
     </div>
   `;
 }
