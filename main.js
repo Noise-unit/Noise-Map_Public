@@ -283,7 +283,7 @@ function popupHtmlForFeature(f) {
   `;
 }
 
-//adapted and modified from a stackoverflow thread to read multiple dates in a single cell (Note: the seperator MUST be a comma in this case) will have to test
+//adapted and modified from a stackoverflow thread to read multiple dates in a single cell will have to test
 //to see if this works as intended or not......
 function parseDateDMYorMDY(token) {
   if (!token) return null;
